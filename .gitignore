@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/venv/
+**/env/
+
+# Build artifacts
+dist/
+**/dist/
+build/
+.oxlintrc.json
+tsconfig.app.tsbuildinfo
+
+# Python cache & testing
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+**/pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & logs
+*.db
+*.sqlite
+*.sqlite3
+bharatscheme.db
+**/bharatscheme.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & local secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
